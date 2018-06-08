@@ -1,0 +1,12 @@
+# Default values for newrelic-infrastructure.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+rbac:
+  # If true, create & use RBAC resources
+  create: false
+  # Ignored if rbac.create is true
+  serviceAccountName: default
+
+cluster_id: MYCLUSTER
+license_id: MYLICENSE
